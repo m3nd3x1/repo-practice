@@ -9,8 +9,3 @@ puts "Hello, #{name}!"
 name = ARGV.first || "World"
 
 puts "Hello, #{name}!
-
-# This is an unwanted but committed change
-name = ARGV.first || "World"
-
-puts "Hello, #{name}!"
