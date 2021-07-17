@@ -22,3 +22,11 @@ puts "Hello, #{name}!"
 name = ARGV.first || "World"
 
 puts "Hello, #{name}!"
+
+#!/usr/bin/ruby -wKU
+
+task :default => :run
+
+task :run do
+  require './lib/hello'
+end
